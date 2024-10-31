@@ -1,18 +1,47 @@
+/* style.css */
 body {
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
 }
 
 header {
-    background-color: #333;
+    background-color: #111;
     padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
 }
 
 nav a {
     color: #fff;
-    margin: 0 10px;
     text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #333;
 }
 
 main {
     padding: 20px;
+}
+
+h1 {
+    color: #e91e63; /* Nike's primary color */
+}
+
+footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
